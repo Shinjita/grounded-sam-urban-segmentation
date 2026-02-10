@@ -1,0 +1,22 @@
+Percentage of river in the image: 8.64%
+River percentage mask image saved at: output_images\river_percentage_mask.png
+
+Percentage of yacht in the image: 0.79%
+Yacht percentage mask image saved at: output_images\yacht_percentage_mask.png
+
+Percentage of building in the image: 34.08%
+Building percentage mask image saved at: output_images\building_percentage_mask.png
+
+Percentage of house in the image: 7.78%
+House percentage mask image saved at: output_images\house_percentage_mask.png
+
+Percentage of fence in the image: 2.34%
+Fence percentage mask image saved at: output_images\fence_percentage_mask.png
+
+Percentage of green in the image: 4.62%
+Green percentage mask image saved at: output_images\green_percentage_mask.png
+
+Percentage of sky in the image: 24.57%
+Sky percentage mask image saved at: output_images\sky_percentage_mask.png
+
+Undetected region in the image: 17.18%
