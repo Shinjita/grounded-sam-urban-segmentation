@@ -11,24 +11,18 @@ Urban researchers and planners increasingly rely on street-level and window-view
 - Derive **area-based metrics** (green, grey, blue exposure)
 - Produce outputs suitable for **GIS and urban health research**
 
----
-## 🧠 Method Overview
+## 🧠 Method Overview and Key categories include:
 The workflow combines:
 - **Grounded SAM** for open-vocabulary segmentation  
 - **CLIP** for semantic validation and filtering  
 - **Priority-based masking** to resolve overlaps  
 - **Pixel-based area calculation** for quantitative outputs  
-
-Key categories include:
 - Green elements (trees, grass, shrubs, plants)
 - Built elements (buildings, houses, pavements)
 - Water bodies (river)
 - Sky and other contextual features
 
----
-
 ## 🛠️ Technologies Used
-
 - Python
 - Grounded SAM (Segment Anything Model)
 - CLIP (Vision–Language Model)
