@@ -3,7 +3,8 @@
 This repository demonstrates the use of **Grounded Segment Anything Model (Grounded SAM)** combined with **CLIP-based semantic filtering** to perform **category-aware semantic segmentation of urban scenes**.
 The workflow focuses on identifying and quantifying key visual elements in urban environments—such as **greenery, buildings, water bodies, and infrastructure**—from single RGB images. The outputs are designed to support **urban analytics, environmental exposure assessment, and GIS-based research**.
 
-Refer to https://github.com/Shinjita/grounded-sam-urban-segmentation/blob/ee5d3252786989ecb110b067d0e75afdb9b1db8b/Semantic%20Segmentation%20with%20Grounded%20SAM_%20Comprehensive%20Guide.pdf explaining the methodology, model logic, and output interpretation in detail.
+Refer to the document explaining the methodology, model logic, and output interpretation in detail: </br>
+https://github.com/Shinjita/grounded-sam-urban-segmentation/blob/ee5d3252786989ecb110b067d0e75afdb9b1db8b/Semantic%20Segmentation%20with%20Grounded%20SAM_%20Comprehensive%20Guide.pdf 
 
 ## 🔍 Why this project?
 
