@@ -1,2 +1,40 @@
-# grounded-sam-urban-segmentation
-Using Grounded SAM to extract interpretable urban environmental exposure metrics from RGB images
+# Grounded SAM for Urban Scene Semantic Segmentation
+
+This repository demonstrates the use of **Grounded Segment Anything Model (Grounded SAM)** combined with **CLIP-based semantic filtering** to perform **category-aware semantic segmentation of urban scenes**.
+The workflow focuses on identifying and quantifying key visual elements in urban environments—such as **greenery, buildings, water bodies, and infrastructure**—from single RGB images. The outputs are designed to support **urban analytics, environmental exposure assessment, and GIS-based research**.
+
+## 🔍 Why this project?
+
+Urban researchers and planners increasingly rely on street-level and window-view imagery to understand how people visually experience cities. However, translating images into **quantitative, interpretable metrics** (e.g. % green view, % built view) remains challenging. This project shows how foundation vision models can be used to:
+- Perform **semantic segmentation without manual training**
+- Enforce **class prioritisation** to avoid overlapping masks
+- Derive **area-based metrics** (green, grey, blue exposure)
+- Produce outputs suitable for **GIS and urban health research**
+
+---
+## 🧠 Method Overview
+The workflow combines:
+- **Grounded SAM** for open-vocabulary segmentation  
+- **CLIP** for semantic validation and filtering  
+- **Priority-based masking** to resolve overlaps  
+- **Pixel-based area calculation** for quantitative outputs  
+
+Key categories include:
+- Green elements (trees, grass, shrubs, plants)
+- Built elements (buildings, houses, pavements)
+- Water bodies (river)
+- Sky and other contextual features
+
+---
+
+## 🛠️ Technologies Used
+
+- Python
+- Grounded SAM (Segment Anything Model)
+- CLIP (Vision–Language Model)
+- OpenCV
+- NumPy
+- PyTorch
+- Supervision / Autodistill
+
+
